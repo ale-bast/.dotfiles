@@ -1,0 +1,32 @@
+game:
+  exe: ''
+  prefix: /home/axel/Games/persona-4-golden
+game_slug: persona-4-golden
+name: Persona 4 Golden
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: "/home/axel/Documents/Jeux/Jeux \xE0 Installer/Japonais/1 Must/Persona\
+        \ 4 Golden [FitGirl Repack]/setup.exe"
+      prefix: /home/axel/Games/persona-4-golden
+      wine_path: wine
+  system:
+    env:
+      LC_ALL: ''
+slug: persona-4-golden-setup
+system:
+  env:
+    LC_ALL: ''
+variables: {}
+version: Setup file
+wine: {}
+year: null

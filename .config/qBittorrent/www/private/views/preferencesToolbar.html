@@ -1,0 +1,56 @@
+<!-- preferences -->
+<div class="toolbarTabs">
+    <ul id="preferencesTabs" class="tab-menu">
+        <li id="PrefBehaviorLink" class="selected"><a>Behavior</a></li>
+        <li id="PrefDownloadsLink"><a>Downloads</a></li>
+        <li id="PrefConnectionLink"><a>Connection</a></li>
+        <li id="PrefSpeedLink"><a>Speed</a></li>
+        <li id="PrefBittorrentLink"><a>BitTorrent</a></li>
+        <li id="PrefRSSLink"><a>RSS</a></li>
+        <li id="PrefWebUILink"><a>Web UI</a></li>
+        <li id="PrefAdvancedLink"><a>Advanced</a></li>
+    </ul>
+    <div class="clear"></div>
+</div>
+
+<script>
+    'use strict';
+
+    (function() {
+        // Tabs
+        MochaUI.initializeTabs('preferencesTabs');
+
+        $('PrefBehaviorLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('BehaviorTab').removeClass('invisible');
+        });
+        $('PrefDownloadsLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('DownloadsTab').removeClass('invisible');
+        });
+        $('PrefConnectionLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('ConnectionTab').removeClass('invisible');
+        });
+        $('PrefSpeedLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('SpeedTab').removeClass('invisible');
+        });
+        $('PrefBittorrentLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('BittorrentTab').removeClass('invisible');
+        });
+        $('PrefRSSLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('RSSTab').removeClass('invisible');
+        });
+        $('PrefWebUILink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('WebUITab').removeClass('invisible');
+        });
+        $('PrefAdvancedLink').addEvent('click', function(e) {
+            $$('.PrefTab').addClass('invisible');
+            $('AdvancedTab').removeClass('invisible');
+        });
+    })();
+</script>

@@ -1,0 +1,13 @@
+{
+    "label": "Ghostly Mist",
+    "light": {
+        "fg": "#ffffff",
+        "bg": "linear-gradient(#2c3c49, #6e3b2a)",
+        "link": "#4d4dff"
+    },
+    "dark": {
+        "fg": "#ffffff",
+        "bg": "linear-gradient(#2c3c49, #6e3b2a)",
+        "link": "#4d4dff"
+    }
+}

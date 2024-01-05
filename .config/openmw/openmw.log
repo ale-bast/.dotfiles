@@ -1,0 +1,94 @@
+[23:29:21.546 I] OpenMW version 0.48.0
+[23:29:21.547 I] Using default (English) font encoding.
+[23:29:21.547 W] No such dir: "/home/axel/.local/share/openmw/data"
+[23:29:21.548 I] OSG version: 3.6.5
+[23:29:21.548 I] SDL version: 2.28.5
+[23:29:21.548 I] Loading shader settings file: "/home/axel/.config/openmw/shaders.yaml"
+[23:29:21.644 I] OpenGL Vendor: Intel
+[23:29:21.644 I] OpenGL Renderer: Mesa Intel(R) UHD Graphics (CML GT2)
+[23:29:21.644 I] OpenGL Version: 4.6 (Compatibility Profile) Mesa 23.2.1-arch1.2
+[23:29:21.644 I] Using reverse-z depth buffer
+[23:29:21.645 I] Adding data directory /usr/share/games/openmw/resources/vfs
+[23:29:21.650 I] Lua version: Lua 5.1.4 (LuaJIT 2.1.1694285958)
+[23:29:21.655 I] Loading font file MysticCards.omwfont
+[23:29:21.660 I] Loading font file DemonicLetters.omwfont
+[23:29:21.664 I] Loading font file DejaVuLGCSansMono.omwfont
+[23:29:21.675 E] Failed to open image: Resource 'textures/door_icon.dds' not found
+[23:29:21.677 E] Failed to open image: Resource 'textures/menu_rightbuttonup_bottom.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_bottom_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_top_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_top.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_top_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_bottom_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttonup_center.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_bottom.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_bottom_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_top_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_top.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_top_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_bottom_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_rightbuttondown_center.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_bottom.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_right.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_top.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_left.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_bottom_right_corner.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_bottom_left_corner.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_top_right_corner.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_thick_border_top_left_corner.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_head_block_middle.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_head_block_top.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_head_block_bottom.dds' not found
+[23:29:21.678 E] Failed to open image: Resource 'textures/menu_head_block_left.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_head_block_right.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_head_block_top_right_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_head_block_top_left_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_head_block_bottom_right_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_head_block_bottom_left_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_top.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_bottom.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_left.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_right.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_top_left_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_top_right_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_bottom_left_corner.dds' not found
+[23:29:21.679 E] Failed to open image: Resource 'textures/menu_button_frame_bottom_right_corner.dds' not found
+[23:29:21.681 E] Failed to open image: Resource 'textures/menu_thin_border_top.dds' not found
+[23:29:21.682 E] Failed to open image: Resource 'textures/menu_thin_border_left.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_bottom.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_right.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_top_left_corner.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_top_right_corner.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_bottom_left_corner.dds' not found
+[23:29:21.683 E] Failed to open image: Resource 'textures/menu_thin_border_bottom_right_corner.dds' not found
+[23:29:21.684 E] Failed to open image: Resource 'textures/menu_bar_gray.dds' not found
+[23:29:21.684 E] Failed to open image: Resource 'textures/menu_small_energy_bar_top.dds' not found
+[23:29:21.684 E] Failed to open image: Resource 'textures/menu_small_energy_bar_bottom.dds' not found
+[23:29:21.684 E] Failed to open image: Resource 'textures/menu_small_energy_bar_vert.dds' not found
+[23:29:21.685 E] Failed to open image: Resource 'textures/target.dds' not found
+[23:29:21.687 E] Failed to open image: Resource 'textures/tx_cursor.dds' not found
+[23:29:21.688 W] Warning: no splash screens found!
+[23:29:21.689 E] Failed to open image: Resource 'textures/tx_cursormove.dds' not found
+[23:29:21.689 E] Failed to open image: Resource 'textures/cursor_drop_ground.dds' not found
+[23:29:21.692 I] Initializing OpenAL...
+[23:29:21.698 I] Opened "Built-in Audio Analog Stereo"
+[23:29:21.698 I]   ALC Version: 1.1
+[23:29:21.698 I]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFT_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_loopback_bformat ALC_SOFT_output_limiter ALC_SOFT_output_mode ALC_SOFT_pause_device ALC_SOFT_reopen_device
+[23:29:21.724 I]   Vendor: OpenAL Community
+[23:29:21.724 I]   Renderer: OpenAL Soft
+[23:29:21.724 I]   Version: 1.1 ALSOFT 1.23.1
+[23:29:21.724 I]   Extensions: AL_EXT_ALAW AL_EXT_BFORMAT AL_EXT_DOUBLE AL_EXT_EXPONENT_DISTANCE AL_EXT_FLOAT32 AL_EXT_IMA4 AL_EXT_LINEAR_DISTANCE AL_EXT_MCFORMATS AL_EXT_MULAW AL_EXT_MULAW_BFORMAT AL_EXT_MULAW_MCFORMATS AL_EXT_OFFSET AL_EXT_source_distance_model AL_EXT_SOURCE_RADIUS AL_EXT_STATIC_BUFFER AL_EXT_STEREO_ANGLES AL_LOKI_quadriphonic AL_SOFT_bformat_ex AL_SOFTX_bformat_hoa AL_SOFT_block_alignment AL_SOFT_buffer_length_query AL_SOFT_callback_buffer AL_SOFTX_convolution_reverb AL_SOFT_deferred_updates AL_SOFT_direct_channels AL_SOFT_direct_channels_remix AL_SOFT_effect_target AL_SOFT_events AL_SOFT_gain_clamp_ex AL_SOFTX_hold_on_disconnect AL_SOFT_loop_points AL_SOFTX_map_buffer AL_SOFT_MSADPCM AL_SOFT_source_latency AL_SOFT_source_length AL_SOFT_source_resampler AL_SOFT_source_spatialize AL_SOFT_source_start_delay AL_SOFT_UHJ AL_SOFT_UHJ_ex
+[23:29:21.724 I] HRTF disabled
+[23:29:21.724 I] Allocated 256 sound sources
+[23:29:21.724 I] Low-pass filter supported
+[23:29:21.724 I] EAX Reverb supported
+[23:29:21.724 I] Enumerated output devices:
+[23:29:21.724 I]   Built-in Audio Analog Stereo  Easy Effects Sink
+[23:29:21.725 I] Enumerated HRTF names:
+[23:29:21.725 I]   Default HRTF  Built-In HRTF
+[23:29:21.726 I] Loading content file builtin.omwscripts
+[23:29:21.736 E] Error: unknown global variable: gamehour

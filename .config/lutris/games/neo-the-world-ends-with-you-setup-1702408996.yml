@@ -1,0 +1,33 @@
+game:
+  exe: /home/axel/Games/neo-the-world-ends-with-you/drive_c/NEO - The World Ends with
+    You/NEO The World Ends with You.exe
+  prefix: /home/axel/Games/neo-the-world-ends-with-you
+game_slug: neo-the-world-ends-with-you
+name: Neo The World Ends With You
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env:
+        LC_ALL: ''
+      executable: "/home/axel/Documents/Jeux/Jeux \xE0 Installer/Japonais/1 Must/NEO\
+        \ - TWEWY [FitGirl Repack]/setup.exe"
+      prefix: /home/axel/Games/neo-the-world-ends-with-you
+      wine_path: wine
+  system:
+    env:
+      LC_ALL: ''
+slug: neo-the-world-ends-with-you-setup
+system:
+  env:
+    LC_ALL: ''
+variables: {}
+version: Setup file
+wine: {}
+year: null

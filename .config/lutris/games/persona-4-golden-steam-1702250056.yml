@@ -1,0 +1,17 @@
+game:
+  appid: '1113000'
+game_slug: persona-4-golden
+name: Persona 4 Golden
+requires: null
+script:
+  game:
+    appid: 1113000
+service: steam
+service_id: 1113000
+slug: persona-4-golden-steam
+steam: {}
+system:
+  locale: ''
+variables: {}
+version: Steam
+year: 2020

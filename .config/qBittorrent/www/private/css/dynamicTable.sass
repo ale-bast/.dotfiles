@@ -1,0 +1,126 @@
+/**************************************************************
+	
+	Dynamic Table
+	v 0.4
+
+	**************************************************************/
+
+
+#transferList 
+	padding-left: 2px
+	overflow: hidden !important
+	tr:hover
+		cursor: pointer
+	img.stateIcon
+		height: 1.3em
+		width: 16px
+		max-width: 16px
+		vertical-align: middle
+		margin-top: -2px
+	.dynamicTable td
+		padding: 0px 4px
+		&:nth-of-type(1)
+			text-align: center
+		&:nth-of-type(2)
+	
+tr.dynamicTableHeader
+	cursor: pointer
+
+.dynamicTable
+	table-layout: fixed
+	width: 1%
+	padding: 0
+	border-spacing: 0
+	th, td
+		text-overflow: ellipsis
+		overflow: hidden
+		white-space: nowrap
+	tr th
+		background-color: var(--bg-color-tint)
+		padding: 4px 4px 4px 8px
+		white-space: nowrap
+		border-right: 1px solid var(--border-lte)
+		box-sizing: border-box
+		&.sorted
+			padding-right: 5px
+			&::after
+				display: inline-block
+				content: ''
+				width: 0px
+				height: 0px
+				position: relative
+				top: 3px
+				left: 5px
+				border-width: 5px
+				border-style: solid
+				border-color: transparent transparent transparent var(--font-tint)
+				transform: rotate(90deg)
+			&.reverse
+				&::after
+					transform: rotate(270deg)
+					top: -2px
+	td
+		padding: 0px 6px
+		white-space: nowrap
+		img.flags
+			height: 1.25em
+			vertical-align: middle
+	thead tr
+		background-color: var(--row-alt)
+	tbody tr
+		background-color: var(--bg-color)
+		&:nth-child(even), &.alt
+			background-color: var(--row-alt)
+		&.selected
+			background-color: var(--row-select)
+			color: var(--selected-text)
+			td
+				color: var(--selected-text) !important
+		&:hover
+			background-color: var(--hover-color)
+			color: var(--selected-text)
+			td
+				color: var(--selected-text) !important
+	
+#searchPluginsTableDiv
+	tbody tr td
+		color: var(--font-color)
+
+#rssFeedTableDiv
+	.stateIcon
+		margin-bottom: -2px
+		margin-top: 2px
+
+/*Dynamic Table Icons */	
+#torrentFilesTableDiv table tbody tr 
+	td:nth-of-type(2)
+		img:nth-of-type(1)
+			height: 16px
+			width: 16px 
+			padding-right: 0px 
+			position: relative
+			top: 0px
+			margin-right: 0px
+			content: var(--goDownIcon)
+			&.rotate
+				top: 2px
+		img:nth-of-type(2)
+			height: 16px
+			width: 16px 
+			padding-right: 0px !important
+			margin-left: 2px
+			margin-right: 5px
+			content: var(--folderIcon)
+					
+/*
+.dynamicTableFixedHeaderDiv
+	overflow: hidden
+
+.dynamicTableDiv
+	overflow: auto
+	thead th
+		line-height: 0px 
+		height: 0px 
+		padding-top: 0px 
+		padding-bottom: 0px 
+

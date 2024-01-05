@@ -1,0 +1,20 @@
+{
+  "themes": [
+    {
+      "theme-name": "Spin",
+      "fg-color": "#fff",
+      "bg-color": "rgb(36,31,49)",
+      "link-color": "cornflowerblue",
+      "invert": true,
+      "dark-mode": true
+    },
+    {
+      "theme-name": "Livres",
+      "fg-color": "#fff",
+      "bg-color": "rgb(36,31,49)",
+      "link-color": "cornflowerblue",
+      "invert": false,
+      "dark-mode": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+game:
+  exe: /home/axel/Games/baldurs-gate-enhanced-edition/drive_c/GOG Games/Baldur's Gate
+    - Enhanced Edition/Launch Baldur's Gate - Enhanced Edition.lnk
+  prefix: /home/axel/Games/baldurs-gate-enhanced-edition
+game_slug: baldurs-gate-enhanced-edition
+name: 'Baldur''s Gate: Enhanced Edition'
+requires: null
+script:
+  files:
+  - setupfile: N/A:Select the setup file
+  game:
+    exe: _xXx_AUTO_WIN32_xXx_
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      env: {}
+      executable: "/home/axel/Documents/T\xE9l\xE9chargements/Jeux \xE0 Installer/Baldur's\
+        \ Gate - Enhanced Edition/setup_baldurs_gate_enhanced_edition_2.5_(23121).exe"
+      prefix: /home/axel/Games/baldurs-gate-enhanced-edition
+      wine_path: wine
+  wine:
+    version: system
+slug: baldurs-gate-enhanced-edition-setup
+system:
+  mangohud: true
+  prime: true
+  vk_icd: /usr/share/vulkan/icd.d/nvidia_icd.json
+variables: {}
+version: Setup file
+wine:
+  esync: false
+  fsync: false
+  version: system
+year: null

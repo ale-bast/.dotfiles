@@ -1,0 +1,805 @@
+/* Reset */
+
+a img, :link img, :visited img
+	border: none
+
+/*table  border-collapse: collapse border-spacing: 0 */
+
+\:focus
+	outline: none
+
+\:root
+	color-scheme: light dark
+
+.light-theme
+	color-scheme: light
+
+@media (prefers-color-scheme: dark)
+	\:root
+		color-scheme: dark
+
+.dark-theme
+	color-scheme: dark
+
+/*Quickly Generate Different theme icons paths and Classes with SASS*/
+
+@import mixins
+
+@import variables
++themeGenerate($styleTheme, "--")
++themeGenerate($layoutTheme, "--")
+
+@import icons
+
+
+/* Structure */
+
+body
+	margin: 0
+	text-align: left
+	font-family: Arial, Helvetica, sans-serif
+	font-size: 12px
+	font-weight: var(--font-wgt)
+	line-height: 18px
+	letter-spacing: var(--char-spacing)
+	color: var(--font-tint)
+
+
+.aside
+	width: 300px
+
+
+.invisible
+	display: none
+
+
+/* Typography */
+
+h2, h3, h4
+	margin: 0
+	padding: 0 0 5px
+	font-weight: bold
+	color: var(--font-dtint)
+
+h2
+	font-size: 14px
+h3
+	font-size: 12px
+h4
+	font-size: 11px
+
+#mochaPage h3
+	display: block
+	padding: 6px 0
+	margin: 0 0 8px 0
+	border-bottom: 1px solid var(--bg-checkmark)
+
+#error_div,
+#rename_error 
+	color: #f00
+	font-weight: bold
+
+a
+	color: var(--hover-color)
+	text-decoration: none
+	cursor: pointer
+	&:hover
+		text-decoration: none
+p
+	margin: 0
+	padding: 0 0 9px
+
+
+/* List Elements */
+ul
+	list-style: outside
+	margin: 0 0 9px 16px
+
+dt
+	font-weight: bold
+
+dd
+	padding: 0 0 9px
+
+
+/* Code */
+pre
+	background-color: var(--bg-color)
+	color: #006600
+	display: block
+	font-family: 'Courier New', Courier, monospace
+	font-size: 11px
+	max-height: 250px
+	overflow: auto
+	margin: 0 0 10px 0
+	padding: 10px
+	border: 1px solid #d1d7dc
+
+
+/* Dividers */
+hr
+	background-color: #ddd
+	color: #ccc
+	height: 1px
+	border: 0px
+
+.vcenter
+	vertical-align: middle
+
+
+#urls
+	width: 90%
+	height: 100%
+
+#trackersUrls
+	width: 90%
+	height: 100%
+
+#Filters ul
+	list-style-type: none
+	li
+		margin-left: -16px
+
+
+.selectedFilter
+	background-color: var(--row-select)
+	color: var(--selected-text)
+	a
+		color: var(--selected-text)
+
+#properties
+	background-color: #e5e5e5
+
+a.propButton
+	border: 1px solid rgb(85, 81, 91)
+	/*border-radius: 3px*/
+	padding: 2px
+	margin-left: 3px
+	margin-right: 3px
+	img
+		margin-bottom: -4px
+
+.scrollableMenu
+	overflow: hidden auto
+
+/* context menu specific */
+.contextMenu
+	border: 1px solid var(--border-col)
+	padding: 0
+	background: var(--row-alt)
+	list-style-type: none
+	display: none
+	li
+		margin: 0
+		padding: 0
+		a
+			display: list-item
+			height: 26px
+			padding: 0px 20px 0px 5px
+			font-size: 12px
+			text-decoration: none
+			font-family: tahoma, arial, sans-serif
+			line-height: 26px
+			vertical-align: middle
+			color: var(--font-color)
+			white-space: nowrap
+			&:hover
+				background-color: var(--bg-color)
+			&.disabled
+				color: #ccc
+				font-style: italic
+				&:hover
+					background-color: #eee
+		ul
+			padding: 0
+			border: 1px solid var(--border-col)
+			padding: 0
+			background: var(--bg-color)
+			list-style-type: none
+			position: absolute
+			left: -999em
+			z-index: 8000
+			margin: -29px 0 0 100%
+			width: 164px
+			li a
+				&:hover
+					background-color: var(--row-alt)
+		img
+			width: 16px
+			max-width: 16px
+			height: 16px
+			padding: 0px 2px
+			margin-bottom: -3px
+
+		input[type=checkbox]
+			position: relative
+			top: 0px
+
+.contextMenu li a.arrow-right, .contextMenu li a:hover.arrow-right
+	&::after
+		display: inline-block
+		content: ''
+		width: 0px
+		height: 0px
+		position: absolute
+		margin-top: 8px
+		right: 5px
+		border-width: 5px
+		border-style: solid
+		border-color: transparent transparent transparent var(--font-color)
+.scrollableMenu li a.arrow-right
+	&::after
+		
+
+.contextMenu li:hover ul,
+.contextMenu li.ieHover ul,
+.contextMenu li li.ieHover ul,
+.contextMenu li li li.ieHover ul,
+.contextMenu li li:hover ul,
+.contextMenu li li li:hover ul 
+	/* lists nested under hovered list items */
+	left: auto
+
+#torrentsTableDiv_headerMenu, #torrentTrackersTableDiv_headerMenu, #torrentPeersTableDiv_headerMenu, #torrentsTableDiv_headerMenu, #torrentFilesTableDiv_headerMenu
+	img
+		margin-right: 4px
+	li a.arrow-right, li a:hover.arrow-right
+		&::after
+			display: inline-block
+			content: ''
+			width: 0px
+			height: 0px
+			position: absolute
+			margin-top: 3px
+			right: 8px
+			border-width: 5px
+			border-style: solid
+			border-color: transparent transparent transparent var(--font-color)
+	li, li li, li li li
+		&:hover ul, &.ieHover ul,
+			/*left: auto ERROR*/
+
+.contextMenu .separator
+	border-top: 1px solid var(--border-col)
+
+/* Sliders */
+.slider
+	clear: both
+	position: relative
+	font-size: 12px
+	font-weight: bold
+	width: 400px
+	margin-bottom: 15px
+
+.sliderWrapper
+	position: relative
+	font-size: 1px
+	line-height: 1px
+	height: 9px
+	width: 422px
+
+.sliderarea
+	position: absolute
+	top: 0
+	left: 0
+	height: 7px
+	width: 420px
+	font-size: 1px
+	line-height: 1px
+	background: var(--bg-color-tint) url("../images/slider-area.gif") repeat-x
+	border: 1px solid #a3a3a3
+	border-bottom: 1px solid #ccc
+	border-left: 1px solid #ccc
+	margin: 0
+	padding: 0
+	overflow: hidden
+
+.sliderknob
+	position: absolute
+	top: 0
+	left: 0
+	height: 9px
+	width: 19px
+	font-size: 1px
+	line-height: 1px
+	background: url("../images/knob.gif") no-repeat
+	cursor: pointer
+	overflow: hidden
+	z-index: 2
+
+
+.update
+	padding-bottom: 5px
+
+
+.mochaToolButton
+	margin-right: 10px
+
+
+/* Mocha Customization */
+
+#mochaToolbar
+	padding-top: 3px 
+	position: relative
+	overflow-y: hidden
+	.divider
+		background-image: var(--bg-divider)
+		background-repeat: no-repeat
+		background-position: left center
+		height: 10px
+		padding-left: 14px
+		padding-top: 14px
+		/*
+			&:before
+				position: relative
+				padding: 3px 0px
+				top: -8px
+				left: -14px
+				content: ""
+				width: 0px
+				margin-top: -5px
+				background-color: red
+				border-left: 1.5px solid var(--border-col)
+			height: 10px
+			padding-left: 14px
+			padding-top: 14px
+			border: 0px 1px solid white
+		
+.MyMenuIcon
+	margin-left: -18px
+	margin-bottom: -3px
+	padding-right: 5px
+	max-width: 16px
+
+#mainWindowTabs
+	float: right
+	margin: 6px 5px 0 0
+
+/*Search Bars*/
+#torrentsFilterToolbar, #torrentFilesFilterToolbar
+	float: right
+	margin-right: 30px
+
+#torrentsFilterToolbar
+	margin-top: 3px
+
+#torrentsFilterInput, #torrentFilesFilterInput
+	width: 160px
+	padding-left: 2em
+	background: var(--searchIcon) no-repeat left
+	background-size: 1.5em
+
+#filterTextInput
+	background: var(--searchIcon) no-repeat left !important
+
+/* Tri-state checkbox */
+
+label
+	&.tristate
+		background: url("../images/3-state-checkbox.gif") 0 0 no-repeat
+		display: block
+		float: left
+		height: 13px
+		margin: .15em 8px 5px 0px
+		overflow: hidden
+		text-indent: -999em
+		width: 13px
+	&.checked
+		background-position: 0 -13px
+	&.partial
+		background-position: 0 -26px
+
+
+fieldset
+	&.settings
+		border: solid 1px var(--mocha-frame)
+		border-radius: 8px
+		padding: 4px 4px 4px 10px
+		legend
+			margin-left: 8px
+			padding: 4px
+			font-weight: bold
+		label
+			padding: 2px
+			color: var(--font-tint)
+		& + div.formRow
+			margin-top: 10px
+
+
+div.formRow
+	clear: left
+	display: block
+
+.filterWrapper
+	margin-bottom: 4px
+
+.filterTitle
+	background: var(--bg-color-tint)
+	font-weight: bold
+	text-transform: uppercase
+	padding: 0px 0px 4px 5px
+	display: block
+	overflow: hidden
+	white-space: nowrap
+	text-overflow: ellipsis
+	&:nth-of-type(1)
+		padding-top: 5px
+	img
+		max-width: 16px
+		margin-bottom: -4px
+		margin-right: 10px
+		position: relative
+		top: 0px
+		left: 2px
+		display: inline-block
+		cursor: pointer
+		&.rotate
+			transform: rotate(270deg)
+
+/* Search View
+#searchPattern
+	background-image: var(--searchIcon) !important
+	background-position: 4px 4px !important
+
+ul.filterList
+	margin: 0 0 0 16px
+	padding-left: 0
+	a
+		height: 20px
+		display: list-item
+		overflow: hidden
+		white-space: nowrap
+		text-overflow: ellipsis
+		color: inherit
+		line-height: 20px
+		vertical-align: middle
+	img
+		width: 16px
+		max-width: 16px
+		height: 16px
+		padding: 2px 4px
+		vertical-align: middle
+		background-repeat: no-repeat
+	li:hover
+		background-color: var(--hover-color)
+		a
+			color: var(--selected-text)
+
+td.generalLabel
+	white-space: nowrap
+	text-align: right
+	width: 1px
+	vertical-align: top
+
+#torrentFilesTableDiv
+	line-height: 20px
+
+#torrentTrackersTableDiv,
+#webseedsTable
+	line-height: 25px
+
+
+.filesTableCollapseIcon
+	width: 16px
+	height: 16px
+	position: relative
+	top: 2px
+	cursor: pointer
+	margin-bottom: -3px
+	margin-top: 0px
+	padding-right: 4px
+	background-image: var(--goDownIcon)
+	background-size: contain
+	display: inline-block
+
+
+.filesTableCollapseIcon.rotate
+	transform: rotate(270deg)
+	margin-bottom: -1px
+	margin-top: -2px
+	top: 4px
+
+
+.unselectable
+	-webkit-touch-callout: none
+	user-select: none
+
+
+#prop_general
+	padding: 2px
+
+
+/*
+	#progress 
+		border: 1px solid var(--border-col)
+		padding: 0
+		position: relative
+		width: 100%
+	#progress canvas 
+		height: 100%
+		left: 0
+		position: absolute
+		top: 0
+		width: 100%
+
+/*image-rendering: pixelated*/
+.piecesbarWrapper
+	position: relative
+	width: 100%
+
+.piecesbarCanvas 
+	height: 100%
+	inset: 0
+	position: absolute
+	width: 100%
+
+#watched_folders_tab
+	border-collapse: collapse
+	tbody tr td
+		&:nth-of-type(2) img
+			width: 18px !important
+			max-width: 18px 
+
+#watched_folders_tab td, #watched_folders_tab th
+	padding: 2px 4px
+	border: 1px solid black
+
+
+.select-watched-folder-editable
+	position: relative
+	background-color: var(--bg-color)
+	border: solid grey 1px
+	width: 160px
+	height: 20px
+	select
+		position: absolute
+		top: 0px
+		bottom: 0px
+		left: 0px
+		border: none
+		width: 160px
+		margin: 0
+	input
+		position: absolute
+		top: 0px
+		left: 0px
+		width: 140px
+		padding: 1px
+		border: none
+	select:focus, .select-editable input:focus
+		outline: none
+
+
+/*
+	* Workaround to prevent the transfer list from
+	* disappearing when zooming in the browser.
+	*/
+#filtersColumn_handle
+	margin-left: -1px
+
+
+#error_div
+	float: left
+	font-size: 14px
+
+
+.combo_priority
+	font-size: 1em
+
+
+td.statusBarSeparator
+	width: 22px
+	background-image: url("../images/toolbox-divider.gif")
+	background-repeat: no-repeat
+	background-position: center 1px
+	background-size: 2px 18px
+
+
+/* Statistics window */
+.statisticsValue
+	text-align: right
+
+
+/* Search tab */
+
+#SearchPanel, #SearchPanel_wrapper, #SearchPanel_pad
+	height: inherit
+
+#searchResults
+	padding: 0 20px
+	height: 100%
+	.dynamicTabTable
+		width: 100%
+	.numSearchResults
+		font-style: italic
+
+#searchResultsTableContainer
+	height: calc(100% - 140px)
+	overflow: auto
+
+#searchResultsTableDiv
+	height: calc(100% - 26px) !important
+	
+.red
+	color: red
+
+.green
+	color: green
+
+.searchPluginsTableRow
+	cursor: pointer
+
+#torrentFilesTableDiv .dynamicTable tr.nonAlt
+	background-color: var(--bg-color)
+	&.selected
+		background-color: var(--row-select)
+		color: var(--selected-text)
+	&:hover
+		background-color: var(--hover-color)
+		color: var(--selected-text)
+
+
+/* Beginning of Majority of Overrides and New CSS
+	Some changes have been made to the original CSS.
+	Mostly var replacements for hard values*/
+
+/*RSS Feed Stuff*/
+.unreadArticle
+	color: var(--hover-color) !important
+	&:hover
+		color: var(--selected-text) !important
+#rssTorrentDetailsName
+	color: var(--selected-text) !important
+	background-color: var(--row-select) !important
+	padding-left: 4px
+#rssTorrentDetailsDate
+	color: var(--font-color) !important
+	background-color: var(--row-alt) !important
+#rssDetailsView
+	div, p
+		padding-left: 4px !important 
+		/* iframe
+
+/* Log Tab
+.logNormal
+	color: var(--font-tint) !important
+#LogPanel_header
+	height: 38px
+#LogPanel_headerContent
+	border-bottom: var(--tab-border)
+	padding-top: 10px
+	padding-bottom: 5px
+	
+	
+.imageButton
+	background-color: var(--bg-color-tint) !important
+	&:hover 
+		background-color: var(--bg-menu) !important
+	&:active 
+		background-color: var(--bg-menu) !important
+
+/*Context Menu Icons*/
+#contextTagList
+	input[type=checkbox]
+		position: relative
+		top: 4px
+
+.spinnerIcon
+	background-image: url("images/spinner.gif")
+
+/* Footer */
+#desktopFooterWrapper table
+	margin-top: -3px
+#desktopFooter 
+	img
+		height: 16px
+		width: 16px
+		max-width: 16px
+	table tbody tr td
+		&:nth-of-type(7) img
+			margin-top: -2px
+			max-width: 24px  !important
+
+/*Transfer Bar overrides*/
+div
+	.progressbar_wrapper
+		border-color: var(--font-color) !important
+		margin-left: -3px !important
+/* % of download completed*/
+.progressbar_dark
+	background: var(--transfer-bar) !important
+	color: var(--selected-text) !important
+/* % of download uncompleted*/
+.progressbar_light
+	background: var(--bg-color) !important
+	color: var(--font-color) !important
+
+/* Dark Mode Toggle Button */
+#btn-toggle
+	overflow: visible
+	outline: 0
+	position: relative
+	top: 0px
+	cursor: pointer
+	display: inline-block
+	img
+		width: 20px
+		max-width: 20px
+		margin-right: 8px
+		top: -1px !important
+
+/* Input fields -- See Variables */
+select
+	color: var(--font-color)
+	border: 1px solid var(--border-col)
+	border-radius: 4px
+	appearance: none
+	box-sizing: border-box
+	padding: 3px 22px 3px 8px
+	vertical-align: middle
+	background: var(--bg-color-tint) var(--select-arrow) right / auto 87.5%  no-repeat
+	&:hover
+		background-color: var(--bg-menu)
+
+textarea, input[type=text], #mail_password_text
+	background-color: var(--bg-color-tint)
+	border: 1px solid var(--border-col)
+	color: var(--font-color)
+
+#torrentFilesFilterInput, #torrentsFilterInput
+	appearance: none
+	background-color: var(--bg-color)
+	border-top-color: var(--border-col)
+	border-left-color: var(--border-col)
+	border-right-color: var(--border-col)
+	border-bottom-color: var(--border-col)
+	border-image: none 100% 1 0 stretch
+
+button
+	background-color: var(--bg-button)
+	border: 1px solid var(--border-col)
+	color: var(--font-color)
+	border-radius: 4px
+	&:hover
+		background-color: var(--bg-color-tint)
+
+
+/* Scrollbars */
+body
+	scrollbar-width: 15px
+	scrollbar-color: var(--bg-scrollThumb) var(--bg-scrollbar)
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner
+	border-radius: 0px
+	padding: 8px
+	background-color: var(--bg-scrollbar)
+
+::-webkit-scrollbar
+	background-color: var(--bg-scrollbar)
+	width: 15px
+	&:horizontal
+		height: 14px
+
+::-webkit-scrollbar-thumb
+	border-radius: 10px
+	border: 3.5px solid var(--bg-scrollbar)
+	background-color: var(--bg-scrollThumb)
+	opacity: 1
+	&:window-inactive
+		opacity: .6
+
+/* Checkboxes -- See Variables */
+input[type=checkbox]
+	border-radius: 3px
+	appearance: none
+	position: relative
+	top: 2px
+	width: 12px
+	height: 12px
+	background-color: var(--bg-checkmark)
+	@at-root #preferencesPage &
+		top: 4px
+	&:before, &:checked:before
+
+input[type=checkbox]:checked
+	background: var(--bg-checkmarkActive) var(--check-arrow) 52% center / 66.6% no-repeat

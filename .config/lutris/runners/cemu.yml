@@ -1,0 +1,3 @@
+cemu:
+  runner_executable: /usr/bin/cemu
+system: {}
