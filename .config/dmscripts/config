@@ -25,8 +25,8 @@ DMBROWSER="brave"
 # DMTERM="st -e"
 DMTERM="alacritty -e"
 
-DMEDITOR="emacsclient -c -a emacs"
-# DMEDITOR="${DMTERM} vim"
+# DMEDITOR="emacsclient -c -a emacs"
+DMEDITOR="${DMTERM} vim"
 
 # TODO: Rename this variable to something more traditional
 logout_locker='slock'
