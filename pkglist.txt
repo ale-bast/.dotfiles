@@ -15,6 +15,7 @@ dmscripts-git
 dosfstools
 dtos-dmscripts
 dtos-local-bin
+dtos-xmonad
 dunst
 easyeffects
 efibootmgr
