@@ -58,6 +58,7 @@ pandoc-cli
 paru-bin
 picom
 pkgfile
+qbittorrent
 ripgrep
 rofi
 rsync
