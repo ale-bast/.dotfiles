@@ -9,8 +9,8 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=9675c6f5-eedf-4e0a-93ff-2b07d6a76fd8"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="970,42,932,1020"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=3d1db19b-2406-48e6-b418-8bb5a4542253"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="18,42,1884,1020"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/axel/Documents/Virtual Machine"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/axel/Documents/Virtual Machine/archlinux-2024.01.01-x86_64.iso,/home/axel/Documents/T&#xE9;l&#xE9;chargements/linuxmint-21.2-xfce-64bit.iso"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>

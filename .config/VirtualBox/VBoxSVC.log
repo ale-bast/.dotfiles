@@ -318,3 +318,16 @@
 04:54:43.208203 nspr-9   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
 04:54:43.223311 nspr-9   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
 04:54:43.231014 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+05:12:23.855699 nspr-8   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+05:12:23.870435 nspr-8   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+05:12:23.879207 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+05:12:37.771160 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+05:12:37.792973 nspr-8   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+05:12:37.798195 nspr-8   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+05:12:37.807113 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+05:12:38.813069 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+05:12:40.008439 nspr-3   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+05:12:40.023490 nspr-3   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
+05:12:41.051707 nspr-9   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+05:12:41.056828 nspr-9   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
+05:12:41.061250 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0

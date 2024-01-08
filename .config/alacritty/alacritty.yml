@@ -233,33 +233,33 @@ schemes:
   ### Ricemood ###
   Ricemood: &Ricemood
     primary:
-      background: '#1D252F'
-      foreground: '#9BEBFD'
+      background: '#331926'
+      foreground: '#F1A7B3'
     cursor:
       text: CellBackground
-      cursor: '#7DE5FC'
+      cursor: '#F49BAB'
     selection:
       text: CellForeground
-      background: '#05BEE8'
-      foreground: '#FB613E'
+      background: '#ED8A9A'
+      foreground: '#1BAB93'
     normal:
-      black:   '#2A3544'
-      red:     '#37D7FB'
-      green:   '#047FC1'
-      yellow:  '#0784AE'
-      blue:    '#764355'
-      magenta: '#7DA5FC'
-      cyan:    '#030B87'
-      white:   '#04BEC1'
+      black:   '#4D2639'
+      red:     '#E34F68'
+      green:   '#E45454'
+      yellow:  '#0C1C2C'
+      blue:    '#A96F81'
+      magenta: '#F4B79B'
+      cyan:    '#BD7A1E'
+      white:   '#E45484'
     bright:
-      black:   '#262F3D'
-      red:     '#69E1FC'
-      green:   '#0598E8'
-      yellow:  '#0891BF'
-      blue:    '#824A5E'
-      magenta: '#A2CEFD'
-      cyan:    '#030D9A'
-      white:   '#05E3E8'
+      black:   '#442232'
+      red:     '#EA7B8D'
+      green:   '#ED8A8A'
+      yellow:  '#0D1F30'
+      blue:    '#B38190'
+      magenta: '#F8C8BF'
+      cyan:    '#D88C22'
+      white:   '#ED8AAB'
 
   ### Doom One ###
   DoomOne: &DoomOne
