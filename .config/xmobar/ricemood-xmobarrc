@@ -17,8 +17,8 @@ Config { font            = "DS_Celtic-2 Bold 9"
                            , "Font Awesome 6 Free Solid 12"
                            , "Font Awesome 6 Brands 12"
                            ]
-       , bgColor      = "#321B1B"
-       , fgColor      = "#E9C8AF"
+       , bgColor      = "#341822"
+       , fgColor      = "#FDB19B"
        -- Position TopSize and BottomSize take 3 arguments:
        --   an alignment parameter (L/R/C) for Left, Right or Center.
        --   an integer for the percentage width, so 100 would be 100%.
@@ -63,5 +63,5 @@ Config { font            = "DS_Celtic-2 Bold 9"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#D4915E><fc=#D4915E>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#E3DE97><fc=#E3DE97><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#974629><fc=#974629><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#EBDEB4><fc=#EBDEB4><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#5980A3><fc=#5980A3>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#7E5922><fc=#7E5922>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#57651B><fc=#57651B>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#7E3B22><fc=#7E3B22>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#DEAD87><fc=#DEAD87><action=`emacsclient -c -a 'emacs' --eval '(doom/window-maximize-buffer(dt/year-calendar))'`>%date%</action></fc></box>%trayerpad%"
+       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#FC6336><fc=#FC6336>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#FDDA7D><fc=#FDDA7D><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FB372B><fc=#FB372B><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FDD5A2><fc=#FDD5A2><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#786974><fc=#786974>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#F16104><fc=#F16104>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#C1BD03><fc=#C1BD03>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#F11204><fc=#F11204>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#FD8A68><fc=#FD8A68><action=`emacsclient -c -a 'emacs' --eval '(doom/window-maximize-buffer(dt/year-calendar))'`>%date%</action></fc></box>%trayerpad%"
        }

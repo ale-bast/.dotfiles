@@ -97,11 +97,7 @@ myTerminal = "alacritty"    -- Sets default terminal
 myBrowser :: String
 myBrowser = "qutebrowser "  -- Sets qutebrowser as browser
 
-myEmacs :: String
-myEmacs = "emacsclient -c -a 'emacs' "  -- Makes emacs keybindings easier to type
-
 myEditor :: String
--- myEditor = "emacsclient -c -a 'emacs' "  -- Sets emacs as editor
 myEditor = myTerminal ++ " -e vim "    -- Sets vim as editor
 
 myBorderWidth :: Dimension
@@ -132,7 +128,6 @@ myStartupHook = do
   spawnOnce "nm-applet"
   spawnOnce "sleep 2 && volumeicon"
   spawnOnce "notify-log $HOME/.log/notify.log"
-  spawn "/usr/bin/emacs --daemon" -- emacs daemon for the emacsclient
 
   -- spawn "sleep 2 && xwinwrap -ov -g 1920x1056+0+24 -- mpv -wid %WID --panscan=1.0 --no-audio --no-osc --no-osd-bar --no-input-default-bindings --loop /home/axel/Documents/Vidéos/Wallpapers/mylivewallpapers.com-City-Blade-Runner.mp4 --input-ipc-server=/tmp/mpvsocket"
   spawn ("sleep 2 && conky -c $HOME/.config/conky/xmonad/" ++ colorScheme ++ "-01.conkyrc")
@@ -298,8 +293,6 @@ gsSystem =
   ]
 
 gsUtilities =
-  [ ("Emacs", "emacs")
-  , ("Emacsclient", "emacsclient -c -a 'emacs'")
   , ("Nitrogen", "nitrogen")
   , ("Vim", (myTerminal ++ " -e vim"))
   ]
