@@ -7,7 +7,6 @@
    -- ttf-mononoki 
    -- ttf-ubuntu-font-family
    -- htop
-   -- emacs
    -- pacman (Arch Linux)
    -- trayer
    -- 'dtos-local-bin' (from dtos-core-repo)
@@ -17,8 +16,8 @@ Config { font            = "DS_Celtic-2 Bold 9"
                            , "Font Awesome 6 Free Solid 12"
                            , "Font Awesome 6 Brands 12"
                            ]
-       , bgColor      = "#341822"
-       , fgColor      = "#FDB19B"
+       , bgColor      = "#1D252F"
+       , fgColor      = "#9BEBFD"
        -- Position TopSize and BottomSize take 3 arguments:
        --   an alignment parameter (L/R/C) for Left, Right or Center.
        --   an integer for the percentage width, so 100 would be 100%.
@@ -38,8 +37,8 @@ Config { font            = "DS_Celtic-2 Bold 9"
                         -- Cpu usage in percent
                     , Run Cpu ["-t", "<fn=2>\xf2db</fn> cpu: <total>%","-H","50","--high","red"] 20
                         -- Get Gpu usage (script found in .local/bin)
-                    , Run Com ".local/bin/gput" [] "gput" 500
-                    , Run Com ".local/bin/gpup" [] "gpup" 500
+                    , Run Com ".local/bin/gput" [] "gput" 200
+                    , Run Com ".local/bin/gpup" [] "gpup" 200
                         -- Ram percent used
                     , Run Memory ["-t", "<fn=2></fn> ram: <usedratio>%"] 20
                         -- Disk space free
@@ -63,5 +62,5 @@ Config { font            = "DS_Celtic-2 Bold 9"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#FC6336><fc=#FC6336>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#FDDA7D><fc=#FDDA7D><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FB372B><fc=#FB372B><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#FDD5A2><fc=#FDD5A2><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#786974><fc=#786974>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#F16104><fc=#F16104>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#C1BD03><fc=#C1BD03>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#F11204><fc=#F11204>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#FD8A68><fc=#FD8A68><action=`emacsclient -c -a 'emacs' --eval '(doom/window-maximize-buffer(dt/year-calendar))'`>%date%</action></fc></box>%trayerpad%"
+       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#37D7FB><fc=#37D7FB>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#7DA5FC><fc=#7DA5FC><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#05E3E8><fc=#05E3E8><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#A2CEFD><fc=#A2CEFD><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#764355><fc=#764355>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#047FC1><fc=#047FC1>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#030D9A><fc=#030D9A>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#04BEC1><fc=#04BEC1>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#69E1FC><fc=#69E1FC>%date%</fc></box>%trayerpad%"
        }
