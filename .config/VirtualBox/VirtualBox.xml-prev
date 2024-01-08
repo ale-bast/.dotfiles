@@ -17,6 +17,7 @@
     </ExtraData>
     <MachineRegistry>
       <MachineEntry uuid="{9675c6f5-eedf-4e0a-93ff-2b07d6a76fd8}" src="/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"/>
+      <MachineEntry uuid="{3d1db19b-2406-48e6-b418-8bb5a4542253}" src="/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
