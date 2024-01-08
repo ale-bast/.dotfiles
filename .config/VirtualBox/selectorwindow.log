@@ -1,18 +1,4 @@
-00:00:00.318979 VirtualBox GUI VM Selector Window 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
-00:00:00.318980 Log opened 2024-01-08T12:53:15.625270000Z
-00:00:00.318980 Build Type: release
-00:00:00.318982 OS Product: Linux
-00:00:00.318982 OS Release: 6.6.7-zen1-1-zen
-00:00:00.318982 OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Thu, 14 Dec 2023 03:45:20 +0000
-00:00:00.318997 DMI Product Name: GF75 Thin 10SER
-00:00:00.319001 DMI Product Version: REV:1.0
-00:00:00.319005 Firmware type: BIOS
-00:00:00.319022 Host RAM: 15809MB (15.4GB) total, 11614MB (11.3GB) available
-00:00:00.319024 Executable: /usr/lib/virtualbox/VirtualBox
-00:00:00.319024 Process ID: 940972
-00:00:00.319024 Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.319037 Qt version: 5.15.11
-00:00:00.320070 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
-00:00:00.329482 GUI: UIMediumEnumerator: Medium-enumeration started...
-00:00:00.768950 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 16x40 x 1884x1020
-00:00:00.792530 GUI: UIMediumEnumerator: Medium-enumeration finished!
+04:34:07.300026 Log continuation - Log started 2024-01-08T12:53:15.625270000Z
+04:36:51.489274 GUI: UIMediumEnumerator: Medium-enumeration finished!
+04:53:07.028017 GUI: UIMediumEnumerator: Medium-enumeration finished!
+04:54:43.379738 GUI: UIMediumEnumerator: Medium-enumeration finished!
