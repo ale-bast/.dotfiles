@@ -1,72 +1,74 @@
-00:00:00.000449 main     VirtualBox XPCOM Server 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
-00:00:00.000450 main     Log opened 2024-01-10T01:30:11.128587000Z
-00:00:00.000451 main     Build Type: release
-00:00:00.000451 main     OS Product: Linux
-00:00:00.000452 main     OS Release: 6.6.7-zen1-1-zen
-00:00:00.000452 main     OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Thu, 14 Dec 2023 03:45:20 +0000
-00:00:00.000464 main     DMI Product Name: GF75 Thin 10SER
-00:00:00.000468 main     DMI Product Version: REV:1.0
-00:00:00.000471 main     Firmware type: BIOS
-00:00:00.000487 main     Host RAM: 15809MB (15.4GB) total, 10969MB (10.7GB) available
-00:00:00.000488 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.000488 main     Process ID: 1129536
-00:00:00.000489 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.002476 main     IPC socket path: /tmp/.vbox-axel-ipc/ipcd
-00:00:00.106055 nspr-2   VirtualBox: object creation starts
-00:00:00.106106 nspr-2   Home directory: '/home/axel/.config/VirtualBox'
-00:00:00.106186 nspr-2   Loading settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.117409 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
-00:00:00.117475 nspr-2   Successfully initialised host USB using sysfs
-00:00:00.124628 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:00.125283 nspr-2   HostDnsMonitor: initializing
-00:00:00.125368 nspr-2   NAT: resolv.conf: nameserver 103.86.96.96
-00:00:00.125378 nspr-2   HostDnsMonitor: updating information
-00:00:00.125384 nspr-2   HostDnsMonitor: old information
-00:00:00.125385 nspr-2     no server entries
-00:00:00.125386 nspr-2     no domain set
-00:00:00.125387 nspr-2     no search string entries
-00:00:00.125387 nspr-2   HostDnsMonitor: new information
-00:00:00.125388 nspr-2     server 1: 103.86.96.96
-00:00:00.125389 nspr-2     no domain set
-00:00:00.125389 nspr-2     no search string entries
-00:00:00.126815 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.126865 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.127297 nspr-2   Loading settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:00:00.128308 nspr-2   Loading settings file "/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vbox" with version "1.19-linux"
-00:00:00.128639 nspr-2   VirtualBox: object created
-00:00:00.628392 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:00.890318 nspr-3   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.904867 nspr-3   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
-00:00:01.381368 nspr-2   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:01.396058 nspr-2   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
-00:00:01.400911 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:01.662626 nspr-4   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:01.677059 nspr-4   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
-00:00:01.681268 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:03.584810 nspr-4   Launched VM: 67192944 pid: 1129586 (0x113c72) frontend: GUI/Qt name: Arch Linux
-00:00:03.596675 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:03.715624 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
-00:00:04.095486 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
-00:00:06.550169 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
-00:00:06.564751 nspr-3   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
-00:00:06.599841 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
-00:00:06.710276 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:06.710811 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
-00:00:06.741809 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:00:06.957623 nspr-2   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:00:06.974753 nspr-2   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
-00:00:06.989925 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:00:12.257335 nspr-3   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:00:12.271482 nspr-3   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
-00:00:12.280865 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:00:16.954856 nspr-2   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:00:16.969220 nspr-2   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
-00:00:16.969296 nspr-7   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:16.973145 nspr-7   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
-00:00:16.981133 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:00:22.849104 nspr-4   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:00:22.863306 nspr-4   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
-00:00:22.869426 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
-00:02:53.623441 nspr-9   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
-00:02:53.638144 nspr-9   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
-00:02:53.647316 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:00.002130 main     VirtualBox XPCOM Server 7.0.12 r159484 linux.amd64 (Oct 17 2023 12:57:12) release log
+00:00:00.002132 main     Log opened 2024-01-10T12:02:57.008701000Z
+00:00:00.002132 main     Build Type: release
+00:00:00.002133 main     OS Product: Linux
+00:00:00.002134 main     OS Release: 6.6.7-zen1-1-zen
+00:00:00.002134 main     OS Version: #1 ZEN SMP PREEMPT_DYNAMIC Thu, 14 Dec 2023 03:45:20 +0000
+00:00:00.002152 main     DMI Product Name: GF75 Thin 10SER
+00:00:00.002158 main     DMI Product Version: REV:1.0
+00:00:00.002162 main     Firmware type: BIOS
+00:00:00.002181 main     Host RAM: 15809MB (15.4GB) total, 10568MB (10.3GB) available
+00:00:00.002183 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.002183 main     Process ID: 2081774
+00:00:00.002183 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005519 main     IPC socket path: /tmp/.vbox-axel-ipc/ipcd
+00:00:00.115799 nspr-2   VirtualBox: object creation starts
+00:00:00.117237 nspr-2   Home directory: '/home/axel/.config/VirtualBox'
+00:00:00.117735 nspr-2   Loading settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.120912 nspr-2   USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.121038 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.129916 nspr-2   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:00.132383 nspr-2   HostDnsMonitor: initializing
+00:00:00.132496 nspr-2   NAT: resolv.conf: nameserver 103.86.96.96
+00:00:00.132506 nspr-2   HostDnsMonitor: updating information
+00:00:00.132513 nspr-2   HostDnsMonitor: old information
+00:00:00.132514 nspr-2     no server entries
+00:00:00.132515 nspr-2     no domain set
+00:00:00.132516 nspr-2     no search string entries
+00:00:00.132516 nspr-2   HostDnsMonitor: new information
+00:00:00.132517 nspr-2     server 1: 103.86.96.96
+00:00:00.132518 nspr-2     no domain set
+00:00:00.132518 nspr-2     no search string entries
+00:00:00.136462 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.137388 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.142260 nspr-2   Loading settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+00:00:00.144130 nspr-2   Loading settings file "/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vbox" with version "1.19-linux"
+00:00:00.144741 nspr-2   VirtualBox: object created
+00:00:00.756064 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:01.045823 nspr-6   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:01.060765 nspr-6   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
+00:00:03.564059 nspr-6   Launched VM: 67131328 pid: 2081868 (0x1fc44c) frontend: GUI/Qt name: Arch Linux
+00:00:03.576660 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:03.703209 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.095265 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:07.048154 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:07.065782 nspr-7   NetIfAdpCtlOut: VBoxNetAdpCtl: Error while retrieving link speed for wlo1: VBoxNetAdpCtl: ioctl failed: Operation not supported
+00:00:07.092350 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:07.232978 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:07.233670 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:07.260770 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:07.466387 nspr-5   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+00:00:07.476457 nspr-5   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+00:00:07.486862 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:15.850699 nspr-7   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+00:00:15.866099 nspr-7   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+00:00:15.874090 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:16.693561 nspr-6   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+00:00:16.708712 nspr-6   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+00:00:16.708792 nspr-3   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:16.713295 nspr-3   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
+00:00:16.719727 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:43:47.290474 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:43:47.304178 nspr-9   Saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox" with version "1.19-linux"
+00:43:47.308702 nspr-9   Finished saving settings file "/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"
+00:43:47.320388 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:48.323650 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:48.670947 nspr-6   Saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:43:48.686101 nspr-6   Finished saving settings file "/home/axel/.config/VirtualBox/VirtualBox.xml"
+00:43:57.195505 main     VirtualBox: object deletion starts
+00:43:57.195621 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:43:57.195866 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:43:57.196265 main     HostDnsMonitor: shutting down ...
+00:43:57.196346 main     HostDnsMonitor: shut down
+00:43:57.209886 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:43:57.209942 main     VirtualBox: object deleted
