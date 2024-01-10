@@ -16,8 +16,8 @@ Config { font            = "DS_Celtic-2 Bold 9"
                            , "Font Awesome 6 Free Solid 12"
                            , "Font Awesome 6 Brands 12"
                            ]
-       , bgColor      = "#331926"
-       , fgColor      = "#F1A7B3"
+       , bgColor      = "#301933"
+       , fgColor      = "#EBADBA"
        -- Position TopSize and BottomSize take 3 arguments:
        --   an alignment parameter (L/R/C) for Left, Right or Center.
        --   an integer for the percentage width, so 100 would be 100%.
@@ -62,5 +62,5 @@ Config { font            = "DS_Celtic-2 Bold 9"
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#E34F68><fc=#E34F68>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#F4B79B><fc=#F4B79B><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#ED8AAB><fc=#ED8AAB><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#F8C8BF><fc=#F8C8BF><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#A96F81><fc=#A96F81>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#E45454><fc=#E45454>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#D88C22><fc=#D88C22>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#E45484><fc=#E45484>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#EA7B8D><fc=#EA7B8D>%date%</fc></box>%trayerpad%"
+       , template = " %UnsafeStdinReader%}{<box type=Bottom width=2 mb=2 color=#D75B74><fc=#D75B74>%penguin% %kernel%</fc></box> <box type=Bottom width=2 mb=2 color=#E5D3BD><fc=#E5D3BD><action=`alacritty -e htop`>%cpu%</action></fc></box> <box type=Bottom width=2 mb=2 color=#CD336B><fc=#CD336B><action=`alacritty -e nvtop /`><fn=2></fn> gpu: %gput% vram: %gpup%</action></fc></box> <box type=Bottom width=2 mb=2 color=#F1E3DB><fc=#F1E3DB><action=`alacritty -e htop`>%memory%</action></fc></box> <box type=Bottom width=2 mb=2 color=#935779><fc=#935779>%disku%</fc></box> <box type=Bottom width=2 mb=2 color=#AB2A2E><fc=#AB2A2E>%dynnetwork%</fc></box> <box type=Bottom width=2 mb=2 color=#895A22><fc=#895A22>%bell% <action=`alacritty -e sudo pacman -Syu`>%pacupdate%</action></fc></box> <box type=Bottom width=2 mb=2 color=#AB2A59><fc=#AB2A59>%baticon% %battery%</fc></box> <box type=Bottom width=2 mb=2 color=#E18497><fc=#E18497>%date%</fc></box>%trayerpad%"
        }

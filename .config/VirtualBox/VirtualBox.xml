@@ -9,15 +9,16 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=3d1db19b-2406-48e6-b418-8bb5a4542253"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="18,42,1884,1020"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=eb86bb02-2b7c-46f0-b1ca-d2f80ea538d9"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="970,42,932,1020"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/axel/Documents/Virtual Machine"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/axel/Documents/Virtual Machine/archlinux-2024.01.01-x86_64.iso,/home/axel/Documents/T&#xE9;l&#xE9;chargements/linuxmint-21.2-xfce-64bit.iso"/>
-      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
+      <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Media,Details"/>
+      <ExtraDataItem name="GUI/VirtualMediaManager/Details/Expanded" value="true"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{9675c6f5-eedf-4e0a-93ff-2b07d6a76fd8}" src="/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"/>
-      <MachineEntry uuid="{3d1db19b-2406-48e6-b418-8bb5a4542253}" src="/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vbox"/>
+      <MachineEntry uuid="{eb86bb02-2b7c-46f0-b1ca-d2f80ea538d9}" src="/home/axel/VirtualBox VMs/Arch Linux/Arch Linux.vbox"/>
+      <MachineEntry uuid="{e94f9d2f-94aa-4b94-b406-216e91cca5d5}" src="/home/axel/VirtualBox VMs/Arch Linux Clone/Arch Linux Clone.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
