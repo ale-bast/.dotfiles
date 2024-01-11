@@ -50,4 +50,5 @@ fi
 
 xsetroot -cursor_name left_ptr &
 #xbindkeys &
+export XDG_SESSION_TYPE=X11
 exec xmonad
