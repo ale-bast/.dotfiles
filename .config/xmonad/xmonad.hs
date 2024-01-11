@@ -201,7 +201,7 @@ runSelectedAction' conf actions = do
 
 -- gsCategories =
 --   [ ("Games",      spawnSelected' gsGames)
---   --, ("Education",   spawnSelected' gsEducation)
+--   , ("Education",  spawnSelected' gsEducation)
 --   , ("Internet",   spawnSelected' gsInternet)
 --   , ("Multimedia", spawnSelected' gsMultimedia)
 --   , ("Office",     spawnSelected' gsOffice)
