@@ -2,36 +2,36 @@
 draw_bold_text_with_bright_colors = true
 
 [colors.bright]
-black =   "#3F2D27"
-red =     "#DFB386"
-green =   "#D3AB59"
-yellow =  "#A04D15"
-blue =    "#A08A60"
-magenta = "#E6E582"
-cyan =    "#809E2A"
-white =   "#D38259"
+black =   "#363636"
+red =     "#B3B3B3"
+green =   "#999999"
+yellow =  "#494949"
+blue =    "#888888"
+magenta = "#D0D0D0"
+cyan =    "#666666"
+white =   "#999999"
 
 [colors.cursor]
-cursor = "#E0B767"
+cursor = "#BDBDBD"
 text = "CellBackground"
 
 [colors.normal]
-black =   "#47322C"
-red =     "#D59A5D"
-green =   "#C69634"
-yellow =  "#914613"
-blue =    "#927E57"
-magenta = "#CDE067"
-cyan =    "#708B24"
-white =   "#C66634"
+black =   "#3D3D3D"
+red =     "#999999"
+green =   "#808080"
+yellow =  "#424242"
+blue =    "#7C7C7C"
+magenta = "#BDBDBD"
+cyan =    "#595959"
+white =   "#808080"
 
 [colors.primary]
-background = "#2F211D"
-foreground = "#EACCAE"
+background = "#262626"
+foreground = "#CCCCCC"
 
 [colors.selection]
-background = "#D39759"
-foreground = "#3981CB"
+background = "#999999"
+foreground = "#808080"
 text = "CellForeground"
 
 [cursor]
@@ -44,7 +44,7 @@ blinking = "Always"
 TERM = "xterm-256color"
 
 [font]
-size = 12.0
+size = 17.0
 
 [font.bold]
 family = "Source Code Pro"
@@ -154,7 +154,7 @@ mods = "Shift"
 history = 5000
 
 [window]
-dynamic_padding = false
+dynamic_padding = true
 opacity = 0.9
 title = "Alacritty"
 
