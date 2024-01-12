@@ -70,19 +70,6 @@ import XMonad.Util.NamedScratchpad
 import XMonad.Util.Run (runProcessWithInput, safeSpawn, spawnPipe)
 import XMonad.Util.SpawnOnce
 
-   -- ColorScheme module (SET ONLY ONE!)
-      -- Possible choice are:
-      -- DoomOne
-      -- Dracula
-      -- GruvboxDark
-      -- MonokaiPro
-      -- Nord
-      -- OceanicNext
-      -- Palenight
-      -- SolarizedDark
-      -- SolarizedLight
-      -- TomorrowNight
-      -- Ricemood
 import Colors.Ricemood
 
 myFont :: String
