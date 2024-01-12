@@ -282,7 +282,6 @@ gsSystem =
   [ ("Alacritty", "alacritty")
   , ("Bash", (myTerminal ++ " -e bash"))
   , ("Htop", (myTerminal ++ " -e htop"))
-  , ("Fish", (myTerminal ++ " -e fish"))
   , ("PCManFM", "pcmanfm")
   , ("VirtualBox", "virtualbox")
   , ("Virt-Manager", "virt-manager")
