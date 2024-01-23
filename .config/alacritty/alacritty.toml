@@ -2,36 +2,36 @@
 draw_bold_text_with_bright_colors = true
 
 [colors.bright]
-black =   "#3B2C35"
-red =     "#F99C6C"
-green =   "#F9B36A"
-yellow =  "#921915"
-blue =    "#708DA7"
-magenta = "#FDE2F4"
-cyan =    "#CFE409"
-white =   "#F9836A"
+black =   "#492E40"
+red =     "#71CEF4"
+green =   "#45A3F1"
+yellow =  "#492585"
+blue =    "#7CA79F"
+magenta = "#FDCCE9"
+cyan =    "#150FC0"
+white =   "#45DCF1"
 
 [colors.cursor]
-cursor = "#FBB9FB"
+cursor = "#FCA4F4"
 text = "CellBackground"
 
 [colors.normal]
-black =   "#43313B"
-red =     "#F77B3B"
-green =   "#F79631"
-yellow =  "#851713"
-blue =    "#61809D"
-magenta = "#FBB9DA"
-cyan =    "#B6C708"
-white =   "#F75431"
+black =   "#523348"
+red =     "#42BEF0"
+green =   "#158BED"
+yellow =  "#422279"
+blue =    "#6C9C94"
+magenta = "#FCA4C8"
+cyan =    "#130DA8"
+white =   "#15D3ED"
 
 [colors.primary]
-background = "#2C2127"
-foreground = "#FBBD9D"
+background = "#2F1D29"
+foreground = "#A0DFF8"
 
 [colors.selection]
-background = "#F99B6A"
-foreground = "#088ACE"
+background = "#45BFF1"
+foreground = "#EA5012"
 text = "CellForeground"
 
 [cursor]
